@@ -1,0 +1,10 @@
+tasks:
+  - name: Calculate Win Rate
+    description: PUBG oyuncusunun maç verilerini analiz ederek kazanma oranını hesapla.
+    agent: PUBG Analyst Agent
+    expected_output: Oyuncunun kazanma oranı yüzdesi.
+
+  - name: Provide Coaching Suggestions
+    description: Oyuncunun verilerine göre 5 adet gelişim tavsiyesi oluştur.
+    agent: PUBG Coach Agent
+    expected_output: Detaylı kişisel gelişim önerileri.
